@@ -21,7 +21,7 @@ namespace Typical_Tool {
 #define 时间计量单位 TimeMeasure
 
 	//计时器
-	class  Timers
+	class Timers
 	{
 	private:
 		std::chrono::system_clock::time_point InitTime; //初始的时间
@@ -31,12 +31,13 @@ namespace Typical_Tool {
 
 		bool HighPrecision; //高精度
 		TimeMeasure timeMeasure;
+		static bool showLog;
 
 		std::vector<std::chrono::system_clock::time_point> TimerContainer; //计时器 集合(Container)
 		std::vector<std::chrono::steady_clock::time_point> TimerContainer_s; //计时器 集合(Container)
 
 	public:
-		Timers(TimeMeasure tms = tms::sec)
+		Timers(TimeMeasure tms = tms::sec, bool _showLog = false)
 		{
 			if (tms != tms::sec) { //高精度
 				InitTime_s = GetTime_s();
@@ -50,9 +51,13 @@ namespace Typical_Tool {
 				HighPrecision = false;
 				this->timeMeasure = tms;
 			}
+
+			showLog = _showLog;
 		}
 
 	public:
+		static void SetShowLog(bool _showLog = false);
+
 		static std::chrono::system_clock::time_point GetTime();
 #define 获取时间 GetTime
 	
@@ -99,16 +104,10 @@ namespace Typical_Tool {
 #define 时间转换 TransformTime
 		
 		static void sleep_s(long long ms);
-		template<class T = bool>
-		static void sleep(long long sec)
-		{
-			for (long long temp = 1; temp < sec; temp++) {
-				std::this_thread::sleep_for(std::chrono::seconds(1));
-				lgc("暂停: " + Tto_string(temp) + "秒", lm::ts);
-			}
-		}
-#define 延迟_毫秒 sleep_s
-#define 延迟_秒 sleep
+		static void sleep(long long sec);
+
+		static void wait_s(long long ms);
+		static void wait(long long sec);
 
 	public:
 		std::vector<std::chrono::system_clock::time_point> GetTimerContainer();
