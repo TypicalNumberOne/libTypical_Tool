@@ -6,11 +6,11 @@
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //#include "Typical_Tool.h"
 
-#include "pch.h"
-#include "Timers.h"
+//#include "pch.h"
+//#include "Timers.h"
 
 using namespace std;
-using Typical_Tool::Timers;
+//using Typical_Tool::Timers;
 
 namespace Typical_Tool {
 
@@ -30,6 +30,9 @@ namespace Typical_Tool {
 		private:
 			//
 		public:
+
+			static void wait_s(long long ms);
+
 			/* 模拟键盘点击: 单击/按下/抬起
 			* 间隔时间
 			*/

@@ -29,7 +29,7 @@ namespace Typical_Tool {
 				}
 				else
 				{
-					lgc("热键注册[" + this->信息 + "]: 错误😒 -> 代码(" + Tto_string(message) + ")", lm::er);
+					lgc("热键注册[" + this->信息 + "]: 错误😒 -> 代码(" + To_string(message) + ")", lm::er);
 					lgc();
 				}
 			}
@@ -43,7 +43,7 @@ namespace Typical_Tool {
 				}
 				else
 				{
-					lgc("热键注册[" + this->信息 + "]: 错误😒 -> 代码(" + Tto_string(message) + ")", lm::er);
+					lgc("热键注册[" + this->信息 + "]: 错误😒 -> 代码(" + To_string(message) + ")", lm::er);
 					lgc();
 				}
 			}
@@ -68,7 +68,7 @@ namespace Typical_Tool {
 
 					//ShellExecute() 成功操作, 则传入为句柄
 					this->ErrorCode = message;
-					lgc("Shell消息[" + this->信息 + "]: 错误😒 -> 代码(" + Tto_string(message) + ")", lm::er);
+					lgc("Shell消息[" + this->信息 + "]: 错误😒 -> 代码(" + To_string(message) + ")", lm::er);
 					lgc();
 				}
 				else
@@ -88,7 +88,7 @@ namespace Typical_Tool {
 
 					//ShellExecute() 成功操作, 则传入为句柄
 					this->ErrorCode = message;
-					lgc("Shell消息[" + this->信息 + "]: 错误😒 -> 代码(" + Tto_string(message) + ")", lm::er);
+					lgc("Shell消息[" + this->信息 + "]: 错误😒 -> 代码(" + To_string(message) + ")", lm::er);
 					lgc();
 				}
 				else
