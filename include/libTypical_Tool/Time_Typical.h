@@ -108,38 +108,36 @@ namespace Typical_Tool {
 		template<class Target>
 		static void sleep_s(long long _Number)
 		{
-			std::this_thread::sleep_for(Target(_Number));
-
 			if (showLog) {
 				Terr << ANSIESC_YELLOW << "休眠: [" << _Number << "]" << TimeMeasureToString<Target>() << ANSIESC_RESET << endl;
 			}
+			std::this_thread::sleep_for(Target(_Number));
 		}
 		static void sleep(long long _sec)
 		{
-			std::this_thread::sleep_for(std::chrono::seconds(_sec));
 			if (showLog) {
 				Terr << ANSIESC_YELLOW << "休眠: [" << _sec << "]秒" << ANSIESC_RESET << endl;
 			}
+			std::this_thread::sleep_for(std::chrono::seconds(_sec));
 		}
 		template<class Target>
 		static void wait_s(long long _Number)
 		{
-			Timer timer;
-			long long timeTarget = (std::chrono::duration_cast<Target>(timer.GetTime().time_since_epoch()) + Target(_Number)).count();
-			while (timeTarget > std::chrono::duration_cast<Target>(timer.GetTime().time_since_epoch()).count()) {
-			}
 			if (showLog) {
 				Terr << ANSIESC_YELLOW << "等待: [" << _Number << "]" << TimeMeasureToString<Target>() << ANSIESC_RESET << endl;
 			}
+			Timer timer;
+			long long timeTarget = (std::chrono::duration_cast<Target>(timer.GetTime().time_since_epoch()) + Target(_Number)).count();
+			while (timeTarget > std::chrono::duration_cast<Target>(timer.GetTime().time_since_epoch()).count()) {}
 		}
 		static void wait(long long _sec)
 		{
-			Timer timer;
-			long long timeTarget = (std::chrono::duration_cast<std::chrono::seconds>(timer.GetTime().time_since_epoch()) + std::chrono::seconds(_sec)).count();
-			while (timeTarget > std::chrono::duration_cast<std::chrono::seconds>(timer.GetTime().time_since_epoch()).count()) {
-			}if (showLog) {
+			if (showLog) {
 				Terr << ANSIESC_YELLOW << "等待: [" << _sec << "]秒" << ANSIESC_RESET << endl;
 			}
+			Timer timer;
+			long long timeTarget = (std::chrono::duration_cast<std::chrono::seconds>(timer.GetTime().time_since_epoch()) + std::chrono::seconds(_sec)).count();
+			while (timeTarget > std::chrono::duration_cast<std::chrono::seconds>(timer.GetTime().time_since_epoch()).count()) {}
 		}
 
 

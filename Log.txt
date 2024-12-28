@@ -1,9 +1,20 @@
-[2024-12-27 22:48:20]成功: xcopy "C:\Users\22793\source\repos\Tool\include" "C:\Typical\ProgramProject\C++\Libs\include\libTypical_Tool" /E /I /Y /V /H
-[2024-12-27 22:48:20]成功: xcopy "C:\Users\22793\source\repos\Tool\bin" "C:\Typical\ProgramProject\C++\Libs\bin\libTypical_Tool" /E /I /Y /V /H
-[2024-12-27 22:48:20]成功: xcopy "C:\Users\22793\source\repos\Tool\include" "C:\Users\22793\source\repos\Test\include\libTypical_Tool" /E /I /Y /V /H
-[2024-12-27 22:48:20]成功: xcopy "C:\Users\22793\source\repos\Tool\bin" "C:\Users\22793\source\repos\Test\lib\libTypical_Tool" /E /I /Y /V /H
-[2024-12-27 22:48:20]
+[2024-12-28 13:00:17][INFO]    复制文件命令列表: 
+
+[2024-12-28 13:00:17][INFO]    执行命令 复制文件 开始!
+
+[2024-12-28 13:00:17][INFO]    复制文件命令列表: 
+
+[2024-12-28 13:00:17]	xcopy "C:\Users\22793\source\repos\Tool\include" "C:\Typical\ProgramProject\C++\Libs\include\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:17]	xcopy "C:\Users\22793\source\repos\Tool\include" "C:\Users\22793\source\repos\Test\include\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:17]	xcopy "C:\Users\22793\source\repos\Tool\bin" "C:\Typical\ProgramProject\C++\Libs\bin\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:17]	xcopy "C:\Users\22793\source\repos\Tool\bin" "C:\Users\22793\source\repos\Test\lib\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:17][INFO]    执行命令 复制文件 开始!
+
+[2024-12-28 13:00:17]成功: xcopy "C:\Users\22793\source\repos\Tool\include" "C:\Typical\ProgramProject\C++\Libs\include\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:17]成功: xcopy "C:\Users\22793\source\repos\Tool\include" "C:\Users\22793\source\repos\Test\include\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:17]成功: xcopy "C:\Users\22793\source\repos\Tool\bin" "C:\Typical\ProgramProject\C++\Libs\bin\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:18]成功: xcopy "C:\Users\22793\source\repos\Tool\bin" "C:\Users\22793\source\repos\Test\lib\libTypical_Tool" /E /I /Y /V /H
+[2024-12-28 13:00:18]
 
 
 
-[2024-12-27 22:48:20][INFO]    程序退出...

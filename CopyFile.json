@@ -3,17 +3,21 @@
     "文件夹命令行参数" : "/E /I /Y /V /H",
     "文件夹目标路径" : 
     {
-        "1" : "C:\\Typical\\ProgramProject\\C++\\Libs\\include\\libTypical_Tool",
-        "2" : "C:\\Typical\\ProgramProject\\C++\\Libs\\bin\\libTypical_Tool",
-        "3" : "C:\\Users\\22793\\source\\repos\\Test\\include\\libTypical_Tool",
-        "4" : "C:\\Users\\22793\\source\\repos\\Test\\lib\\libTypical_Tool"
+        "1" : 
+        [
+            "C:\\Typical\\ProgramProject\\C++\\Libs\\include\\libTypical_Tool",
+            "C:\\Users\\22793\\source\\repos\\Test\\include\\libTypical_Tool"
+        ],
+        "2" : 
+        [
+            "C:\\Typical\\ProgramProject\\C++\\Libs\\bin\\libTypical_Tool",
+            "C:\\Users\\22793\\source\\repos\\Test\\lib\\libTypical_Tool"
+        ]
     },
     "文件夹路径" : 
     {
         "1" : "C:\\Users\\22793\\source\\repos\\Tool\\include",
-        "2" : "C:\\Users\\22793\\source\\repos\\Tool\\bin",
-        "3" : "C:\\Users\\22793\\source\\repos\\Tool\\include",
-        "4" : "C:\\Users\\22793\\source\\repos\\Tool\\bin"
+        "2" : "C:\\Users\\22793\\source\\repos\\Tool\\bin"
     },
     "文件目标路径" : 
     {
