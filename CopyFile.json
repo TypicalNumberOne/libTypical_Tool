@@ -5,12 +5,12 @@
     {
         "1" : 
         [
-            "C:\\Typical\\ProgramProject\\C++\\Libs\\include\\libTypical_Tool",
+            "C:\\Typical\\ProgramProject\\Libs\\include\\libTypical_Tool",
             "C:\\Users\\22793\\source\\repos\\Test\\include\\libTypical_Tool"
         ],
         "2" : 
         [
-            "C:\\Typical\\ProgramProject\\C++\\Libs\\bin\\libTypical_Tool",
+            "C:\\Typical\\ProgramProject\\Libs\\bin\\libTypical_Tool",
             "C:\\Users\\22793\\source\\repos\\Test\\lib\\libTypical_Tool"
         ]
     },
