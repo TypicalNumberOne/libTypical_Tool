@@ -5,19 +5,24 @@
     {
         "1" : 
         [
-            "C:\\Typical\\ProgramProject\\Libs\\include\\libTypical_Tool",
+            "C:\\Typical\\ProgramProject\\Lib\\include\\libTypical_Tool",
             "C:\\Users\\22793\\source\\repos\\Test\\include\\libTypical_Tool"
         ],
         "2" : 
         [
-            "C:\\Typical\\ProgramProject\\Libs\\bin\\libTypical_Tool",
+            "C:\\Typical\\ProgramProject\\Lib\\bin\\libTypical_Tool",
             "C:\\Users\\22793\\source\\repos\\Test\\lib\\libTypical_Tool"
+        ],
+        "3" : 
+        [
+            "C:\\Typical\\ProgramProject\\SelfProject\\repos"
         ]
     },
     "文件夹路径" : 
     {
         "1" : "C:\\Users\\22793\\source\\repos\\Tool\\include",
-        "2" : "C:\\Users\\22793\\source\\repos\\Tool\\bin"
+        "2" : "C:\\Users\\22793\\source\\repos\\Tool\\bin",
+        "3" : "C:\\Users\\22793\\source\\repos"
     },
     "文件目标路径" : 
     {
