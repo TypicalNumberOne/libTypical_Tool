@@ -1,21 +1,23 @@
-[2025-01-15 16:36:27][WARNING] 使用 std::filesystem 复制, 未使用命令行参数!
-[2025-01-15 16:36:27][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\include
-[2025-01-15 16:36:27][INFO]    目标路径: C:\Typical\ProgramProject\Lib\include\libTypical_Tool
-[2025-01-15 16:36:27][INFO]    复制成功!
-[2025-01-15 16:36:27][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\include
-[2025-01-15 16:36:27][INFO]    目标路径: C:\Users\22793\source\repos\Test\include\libTypical_Tool
-[2025-01-15 16:36:27][INFO]    复制成功!
-[2025-01-15 16:36:27][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\bin
-[2025-01-15 16:36:27][INFO]    目标路径: C:\Typical\ProgramProject\Lib\bin\libTypical_Tool
-[2025-01-15 16:36:27][INFO]    复制成功!
-[2025-01-15 16:36:27][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\bin
-[2025-01-15 16:36:27][INFO]    目标路径: C:\Users\22793\source\repos\Test\lib\libTypical_Tool
-[2025-01-15 16:36:27][INFO]    复制成功!
-[2025-01-15 16:36:27][INFO]    复制的目标文件: C:\Users\22793\source\repos
-[2025-01-15 16:36:27][INFO]    目标路径: C:\Typical\ProgramProject\SelfProject\repos
-[2025-01-15 16:36:29][INFO]    复制成功!
-[2025-01-15 16:36:29]
+[2025-01-15 17:47:16][WARNING] 使用 std::filesystem 复制, 未使用命令行参数!
+[2025-01-15 17:47:16][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\include
+[2025-01-15 17:47:17][INFO]    目标路径: C:\Typical\ProgramProject\Lib\include\libTypical_Tool
+[2025-01-15 17:47:17][INFO]    复制成功!
+[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\include
+[2025-01-15 17:47:17][INFO]    目标路径: C:\Users\22793\source\repos\Test\include\libTypical_Tool
+[2025-01-15 17:47:17][INFO]    复制成功!
+[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\bin
+[2025-01-15 17:47:17][INFO]    目标路径: C:\Typical\ProgramProject\Lib\bin\libTypical_Tool
+[2025-01-15 17:47:17][INFO]    复制成功!
+[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\bin
+[2025-01-15 17:47:17][INFO]    目标路径: C:\Users\22793\source\repos\Test\lib\libTypical_Tool
+[2025-01-15 17:47:17][INFO]    复制成功!
+[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos
+[2025-01-15 17:47:17][INFO]    目标路径: C:\Typical\ProgramProject\SelfProject\repos
+[2025-01-15 17:47:19][INFO]    复制成功!
+[2025-01-15 17:47:19]
 
 
-[2025-01-15 16:36:29][WARNING] 程序执行完毕!
-[2025-01-15 16:36:29]任意键 退出程序...
+[2025-01-15 17:47:19][WARNING] 程序执行完毕!
+[2025-01-15 17:47:19]任意键 退出程序...[2025-01-15 17:47:20]
+
+
