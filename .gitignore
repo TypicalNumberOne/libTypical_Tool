@@ -1,0 +1,13 @@
+.vs/
+boost_1_87_0/
+icu4c-76_1-Win64-MSVC2022/
+
+*.aps
+*.sln
+*.exp
+*.pdb
+*.obj
+*.recipe
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters

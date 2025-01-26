@@ -1,23 +1,59 @@
-[2025-01-15 17:47:16][WARNING] 使用 std::filesystem 复制, 未使用命令行参数!
-[2025-01-15 17:47:16][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\include
-[2025-01-15 17:47:17][INFO]    目标路径: C:\Typical\ProgramProject\Lib\include\libTypical_Tool
-[2025-01-15 17:47:17][INFO]    复制成功!
-[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\include
-[2025-01-15 17:47:17][INFO]    目标路径: C:\Users\22793\source\repos\Test\include\libTypical_Tool
-[2025-01-15 17:47:17][INFO]    复制成功!
-[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\bin
-[2025-01-15 17:47:17][INFO]    目标路径: C:\Typical\ProgramProject\Lib\bin\libTypical_Tool
-[2025-01-15 17:47:17][INFO]    复制成功!
-[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos\Tool\bin
-[2025-01-15 17:47:17][INFO]    目标路径: C:\Users\22793\source\repos\Test\lib\libTypical_Tool
-[2025-01-15 17:47:17][INFO]    复制成功!
-[2025-01-15 17:47:17][INFO]    复制的目标文件: C:\Users\22793\source\repos
-[2025-01-15 17:47:17][INFO]    目标路径: C:\Typical\ProgramProject\SelfProject\repos
-[2025-01-15 17:47:19][INFO]    复制成功!
-[2025-01-15 17:47:19]
+[INFO]    当前操作: [1-1]
+[INFO]    复制的目标文件: [C:/Users/22793/source/repos/Tool/include/libTypical]
+[INFO]    目标路径: [C:/Typical/ProgramProject/Lib/include/libTypical]
+[INFO]    复制成功!
 
 
-[2025-01-15 17:47:19][WARNING] 程序执行完毕!
-[2025-01-15 17:47:19]任意键 退出程序...[2025-01-15 17:47:20]
+[INFO]    当前操作: [2-1]
+[INFO]    复制的目标文件: [C:/Users/22793/source/repos/Tool/bin]
+[INFO]    目标路径: [C:/Typical/ProgramProject/Lib/lib/libTypical]
+[INFO]    复制成功!
 
+
+[INFO]    当前操作: [3-1]
+[INFO]    复制的目标文件: [C:/Typical/ProgramProject/Lib/include]
+[INFO]    目标路径: [C:/Users/22793/source/repos/Tool/include]
+[INFO]    复制成功!
+
+
+[INFO]    当前操作: [3-2]
+[INFO]    复制的目标文件: [C:/Typical/ProgramProject/Lib/include]
+[INFO]    目标路径: [C:/Users/22793/source/repos/Test/include]
+[INFO]    复制成功!
+
+
+[INFO]    当前操作: [3-3]
+[INFO]    复制的目标文件: [C:/Typical/ProgramProject/Lib/include]
+[INFO]    目标路径: [C:/Typical/ProgramProject/UE_Projects/VehicleTest/Source/VehicleTest/ThirdPartyLib/include]
+[INFO]    复制成功!
+
+
+[INFO]    当前操作: [4-1]
+[INFO]    复制的目标文件: [C:/Typical/ProgramProject/Lib/lib]
+[INFO]    目标路径: [C:/Users/22793/source/repos/Tool/lib]
+[INFO]    复制成功!
+
+
+[INFO]    当前操作: [4-2]
+[INFO]    复制的目标文件: [C:/Typical/ProgramProject/Lib/lib]
+[INFO]    目标路径: [C:/Users/22793/source/repos/Test/lib]
+[INFO]    复制成功!
+
+
+[INFO]    当前操作: [4-3]
+[INFO]    复制的目标文件: [C:/Typical/ProgramProject/Lib/lib]
+[INFO]    目标路径: [C:/Typical/ProgramProject/UE_Projects/VehicleTest/Source/VehicleTest/ThirdPartyLib/lib]
+[INFO]    复制成功!
+
+
+[INFO]    当前操作: [5-1]
+[INFO]    复制的目标文件: [C:/Users/22793/source/repos]
+[INFO]    目标路径: [C:/Typical/ProgramProject/SelfProject/repos]
+[INFO]    复制成功!
+
+
+
+
+
+[WARNING] 本次复制总用时: >> [4s 832ms] <<
 

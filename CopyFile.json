@@ -1,28 +1,38 @@
 {
-    "文件命令行参数" : "/Y",
-    "文件夹命令行参数" : "/E /I /Y /V /H",
     "文件夹目标路径" : 
     {
         "1" : 
         [
-            "C:\\Typical\\ProgramProject\\Lib\\include\\libTypical_Tool",
-            "C:\\Users\\22793\\source\\repos\\Test\\include\\libTypical_Tool"
+            "C:/Typical/ProgramProject/Lib/include/libTypical"
         ],
         "2" : 
         [
-            "C:\\Typical\\ProgramProject\\Lib\\bin\\libTypical_Tool",
-            "C:\\Users\\22793\\source\\repos\\Test\\lib\\libTypical_Tool"
+            "C:/Typical/ProgramProject/Lib/lib/libTypical"
         ],
         "3" : 
         [
-            "C:\\Typical\\ProgramProject\\SelfProject\\repos"
+            "C:/Users/22793/source/repos/Tool/include",
+            "C:/Users/22793/source/repos/Test/include",
+            "C:/Typical/ProgramProject/UE_Projects/VehicleTest/Source/VehicleTest/ThirdPartyLib/include"
+        ],
+        "4" : 
+        [
+            "C:/Users/22793/source/repos/Tool/lib",
+            "C:/Users/22793/source/repos/Test/lib",
+            "C:/Typical/ProgramProject/UE_Projects/VehicleTest/Source/VehicleTest/ThirdPartyLib/lib"
+        ],
+        "5" : 
+        [
+            "C:/Typical/ProgramProject/SelfProject/repos"
         ]
     },
     "文件夹路径" : 
     {
-        "1" : "C:\\Users\\22793\\source\\repos\\Tool\\include",
-        "2" : "C:\\Users\\22793\\source\\repos\\Tool\\bin",
-        "3" : "C:\\Users\\22793\\source\\repos"
+        "1" : "C:/Users/22793/source/repos/Tool/include/libTypical",
+        "2" : "C:/Users/22793/source/repos/Tool/bin",
+        "3" : "C:/Typical/ProgramProject/Lib/include",
+        "4" : "C:/Typical/ProgramProject/Lib/lib",
+        "5" : "C:/Users/22793/source/repos"
     },
     "文件目标路径" : 
     {
